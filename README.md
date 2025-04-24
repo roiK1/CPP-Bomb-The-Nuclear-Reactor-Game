@@ -46,5 +46,5 @@ A 2D action game built with SFML/C++ where you infiltrate a facility, plant expl
 
 ## Installation
 - Clone the repository.
-- Build with CMake or your preferred system.
+- Build with CMake.
 - Ensure SFML libraries are properly linked.
