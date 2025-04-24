@@ -1,0 +1,15 @@
+﻿file(GLOB_RECURSE MY_SOURCE_FILES 
+    CONFIGURE_DEPENDS 
+    RELATIVE ${CMAKE_CURRENT_LIST_DIR}
+    ${CMAKE_CURRENT_LIST_DIR}/*.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Game/Presents/*.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/UI/Buttons/*.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/UI/Pages/*.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Assets/*.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Factory/*.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Movements/*.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Shooting/*.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Game/*.cpp
+)
+
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE ${MY_SOURCE_FILES})
