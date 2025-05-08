@@ -41,7 +41,6 @@ A 2D action game built with SFML/C++ where you infiltrate a facility, plant expl
 
 ## Requirements
 - SFML 2.5+ (pre-installed)
-- C++17 compiler
 
 
 ## Installation
