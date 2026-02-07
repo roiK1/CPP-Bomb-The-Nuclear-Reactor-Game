@@ -1,4 +1,4 @@
-# Bomb the nuclear reactor game 🚁💥
+# Bomb the nuclear reactor game 
 
 A 2D action game built with SFML/C++ where you infiltrate a facility, plant explosives, and race against time to escape!
 
